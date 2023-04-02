@@ -1,4 +1,6 @@
 Access the website at: 
+- maxmoundas.com
+- www.maxmoundas.com
 - https://maxmoundas.github.io/
 
 This is my website, showcasing my software engineering projects and abilities.
