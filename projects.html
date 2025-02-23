@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
-    <title>Max Moundas</title>
+    <title>Max Moundas - Projects</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -27,22 +22,46 @@
         </header>
 
         <!-- Nav -->
-        <nav id="nav">
-            <ul class="links">
-                <li><a href="index.html">Work Experience</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li class="active"><a href="projects.html">Projects</a></li>
-            </ul>
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/maxmoundas/" class="icon brands fa-linkedin"><span
-                            class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/maxmoundas" class="icon brands fa-github"><span
-                            class="label">GitHub</span></a></li>
-            </ul>
-        </nav>
+        <nav id="nav"></nav>
 
         <!-- Main -->
         <div id="main">
+
+            <!-- Featured Post: Amplify -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="https://www.amplifygenai.org/">Amplify: Enterprise Generative AI Platform</a></h2>
+                </header>
+                <a href="https://www.amplifygenai.org/" class="image main"><img src="images/AmplifyScreenshot.png"
+                        alt="Amplify Platform Screenshot" /></a>
+                <p>As one of four lead developers for Amplify, I've played a key role in creating an open-source
+                    enterprise generative
+                    AI platform that has been adopted by over 10 universities. Amplify provides organizations with a
+                    scalable, secure
+                    way to implement AI solutions while maintaining control over data and costs.</p>
+                <p>Working alongside globally-leading AI expert Jules White at Vanderbilt University's Institute for
+                    Software Integrated
+                    Systems, I've architected and implemented several critical features for the platform. These include
+                    memory systems
+                    that enable more contextual AI interactions, a novel RAG Fusion system for improved information
+                    retrieval, robust
+                    API integration capabilities, artifact generation functionality, and comprehensive admin monitoring
+                    tools.</p>
+                <p>One of our most significant achievements with Amplify has been its remarkable efficiency and
+                    scalability. The
+                    platform currently serves over 18,000 users while maintaining an average cost of only $3 per user
+                    per month. This
+                    cost-effectiveness, combined with the platform's powerful features, has made it an attractive
+                    solution for
+                    educational institutions and organizations looking to adopt generative AI technologies.</p>
+                <p>This project has deepened my expertise in large language models (LLMs), retrieval augmented
+                    generation (RAG), and
+                    prompt engineering while providing hands-on experience with enterprise-scale AI deployment
+                    challenges.</p>
+                <ul class="actions special">
+                    <li><a href="https://www.amplifygenai.org/" class="button large">Learn More About Amplify</a></li>
+                </ul>
+            </article>
 
             <!-- Featured Post -->
             <article class="post featured">
@@ -159,7 +178,12 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-
+        <script src="assets/js/navigation.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                createNavigation('projects.html');
+            });
+        </script>
 </body>
 
 </html>
