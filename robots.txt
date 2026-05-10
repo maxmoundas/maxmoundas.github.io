@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI crawlers welcome — see /llms.txt for structured content
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://www.maxmoundas.com/sitemap.xml
