@@ -166,12 +166,10 @@
 				$navPanelInner = $navPanel.children('nav');
 
 			// Move nav content on breakpoint change.
-				var $navContent = $nav.children();
-
 				breakpoints.on('>medium', function() {
 
 					// NavPanel -> Nav.
-						$navContent.appendTo($nav);
+						$navPanelInner.children().appendTo($nav);
 
 					// Flip icon classes.
 						$nav.find('.icons, .icon')
@@ -182,7 +180,7 @@
 				breakpoints.on('<=medium', function() {
 
 					// Nav -> NavPanel.
-						$navContent.appendTo($navPanelInner);
+						$nav.children().appendTo($navPanelInner);
 
 					// Flip icon classes.
 						$navPanelInner.find('.icons, .icon')
