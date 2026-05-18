@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max Moundas — Cover Letter (Template)</title>
+  <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+      font-size: 10.5pt;
+      color: #111;
+      background: #fff;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.65in 0.75in 0.55in;
+      line-height: 1.45;
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      margin-bottom: 28px;
+      border-bottom: 1.4px solid #111;
+      padding-bottom: 10px;
+    }
+
+    .header h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      margin-bottom: 4px;
+    }
+
+    .header .contact {
+      font-size: 9.2pt;
+      color: #222;
+    }
+
+    .header .contact a {
+      color: #222;
+      text-decoration: none;
+    }
+
+    .header .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .header .contact .icon-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .header .contact .icon-link i {
+      font-size: 12pt;
+      vertical-align: middle;
+      color: #222;
+    }
+
+    /* ── Letter body ── */
+    .date {
+      font-size: 10pt;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .salutation {
+      font-size: 10.5pt;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    p {
+      font-size: 10.5pt;
+      margin-bottom: 13px;
+    }
+
+    /* Swap zone styling — visible on screen, hidden when printing */
+    .swap {
+      background: #fff8e1;
+      border-left: 3px solid #f0b429;
+      padding: 1px 4px;
+      border-radius: 2px;
+      font-style: italic;
+      color: #7a5c00;
+    }
+
+    @media print {
+      .swap {
+        background: none;
+        border: none;
+        padding: 0;
+        font-style: normal;
+        color: #111;
+      }
+    }
+
+    .closing {
+      margin-top: 20px;
+      font-size: 10.5pt;
+    }
+
+    .closing .sign-off {
+      margin-bottom: 32px;
+    }
+
+    .closing .name {
+      font-weight: 700;
+      font-size: 11pt;
+    }
+
+    /* ── Print ── */
+    @media print {
+      body {
+        padding: 0.60in 0.70in 0.50in;
+        max-width: none;
+      }
+
+      a {
+        color: #111;
+        text-decoration: none;
+      }
+
+      @page {
+        size: letter;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <div class="header">
+    <h1>Max Moundas</h1>
+    <div class="contact">
+      maxmoundas@gmail.com &nbsp;|&nbsp;
+      <a href="https://www.maxmoundas.com">maxmoundas.com</a> &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/maxmoundas/" class="icon-link" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a> &nbsp;|&nbsp;
+      <a href="https://github.com/maxmoundas" class="icon-link" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a> &nbsp;|&nbsp;
+      <a href="https://scholar.google.com/citations?user=QMHf04YAAAAJ&amp;hl=en" class="icon-link" title="Google Scholar" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a> &nbsp;|&nbsp;
+      Nashville, TN
+    </div>
+  </div>
+
+  <!-- ── Letter ── -->
+  <div class="date">May 2026</div>
+
+  <div class="salutation">Dear <span class="swap">[Company Name]</span> Team,</div>
+
+  <!--
+    OPENING PARAGRAPH
+    Goal: connect your background to what this company is building.
+    Swap zones: company name, their mission/product, and the specific angle of your experience that maps to it.
+  -->
+  <p>
+    I'm reaching out because <span class="swap">[what this company is building / the problem they're solving]</span> connects directly to the work I've been doing at Vanderbilt's Amplify Generative AI Innovation Center. Over the past two years I've built enterprise AI platforms, agentic systems, and AI workflows serving tens of thousands of users across higher education. <span class="swap">[One sentence on why their specific mission resonates with your experience or interests — make it genuine and specific to this company.]</span> I'd like to bring that background to your team.
+  </p>
+
+  <!--
+    SCALABLE SYSTEMS PARAGRAPH
+    Goal: demonstrate you can build AI systems that hold up at scale.
+    Mostly evergreen — swap the company-specific angle at the end if relevant.
+  -->
+  <p>
+    On the systems side, I've built AI infrastructure designed to scale from day one. Amplify serves 18,000+ users at Vanderbilt and runs at universities across the country on AWS with serverless architecture and infrastructure-as-code, averaging $3/user/month. Deploying across multiple institutions meant solving real problems around multi-tenancy, per-client configuration, and integration with each school's existing tools — authentication, Office 365, APIs. Every deployment came with different constraints, and the platform had to flex around them. <span class="swap">[Optional: one sentence connecting this directly to the company's scale challenges or infrastructure context.]</span>
+  </p>
+
+  <!--
+    CLIENT / DELIVERY PARAGRAPH
+    Goal: show you understand how to translate client needs into delivered software.
+    Mostly evergreen — the Staff Fellows story works broadly.
+  -->
+  <p>
+    I've spent a lot of time learning to figure out what clients actually need, not just what they ask for. Through the Amplify Staff Fellows program, I worked with staff from departments across Vanderbilt — each with a real problem they believed AI could solve, but with no shared technical vocabulary and very different existing workflows. My job was to understand their systems, scope what was realistic, and build solutions that fit into how they actually worked. That process — listening, reframing, building, iterating — is how I approach every project, and it's shaped my instinct for delivering work that gets used rather than shelved. <span class="swap">[Optional: one sentence if this company has a specific client-facing or integration challenge worth calling out.]</span>
+  </p>
+
+  <!--
+    QUICK LEARNER / AI DEPTH PARAGRAPH
+    Goal: show you move fast, stay current, and operate well under ambiguity.
+    Mostly evergreen.
+  -->
+  <p>
+    I move fast and learn by building things that have to work. When I joined Amplify as one of three engineers, generative AI was barely an enterprise concept. Since then I've shipped a production multi-university platform, published four peer-reviewed papers on LLMs and prompt engineering, built agentic desktop applications, and taught a week-long AI course to doctoral candidates across Europe — all while the models, APIs, and best practices changed around us. <span class="swap">[Optional: one sentence tailored to the company's pace, stack, or technical domain.]</span>
+  </p>
+
+  <!--
+    CLOSING PARAGRAPH
+    Swap: company name, any location/logistics detail.
+  -->
+  <p>
+    I'm genuinely excited about what <span class="swap">[Company Name]</span> is building and would love to talk about where I could contribute most. <span class="swap">[Optional: logistics line — e.g., "I'm in Nashville, so an in-person conversation is easy to arrange."]</span>
+  </p>
+
+  <div class="closing">
+    <div class="sign-off">Best,</div>
+    <div class="name">Max Moundas</div>
+  </div>
+
+</body>
+</html>
