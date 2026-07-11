@@ -54,7 +54,7 @@ Majk is an agentic desktop application enabling university staff and researchers
 - More info: https://www.cr8.io/
 
 **Research & Publications:**
-Authored and co-authored multiple peer-reviewed research papers on LLMs, prompt engineering, and code generation. Primary research paper has 15 citations. Upcoming paper covers a survey of guardrail and protection systems for AI — evaluating industry-standard guardrails against proposed protection systems, analyzing data shortcomings, and proposing methods to test AI system resilience against adversarial prompting.
+Authored and co-authored multiple peer-reviewed research papers on LLMs, prompt engineering, and code generation. Primary research paper has 17 citations. Upcoming paper covers a survey of guardrail and protection systems for AI — evaluating industry-standard guardrails against proposed protection systems, analyzing data shortcomings, and proposing methods to test AI system resilience against adversarial prompting.
 
 **AI Training & Community:**
 - Leads Amplify trainings for the Vanderbilt community — live walkthroughs of the platform, feature demonstrations, Q&A, and real-world use case examples for thousands of students, staff, faculty, and administrators
@@ -69,7 +69,7 @@ Authored and co-authored multiple peer-reviewed research papers on LLMs, prompt 
 ---
 
 ### IT Intern — Aimbridge Hospitality
-**Duration:** May 2021 – August 2023 (Summers 2021 and 2022)
+**Duration:** May 2021 – August 2023 (Summer internships 2021–2022, part-time through 2023)
 
 Aimbridge Hospitality is a leading third-party hotel management company.
 
@@ -106,45 +106,10 @@ Agentic desktop application coordinating specialized AI agents to complete real 
 
 ---
 
-### RateMyClass — Course Review Website
-**URL:** https://ratemyvandycourse.web.app/
-**Code:** https://github.com/alypriolo/ratemyclass
-**Role:** Co-developer (Senior CS Capstone, team of 4)
-**Status:** Completed
-
-RateMyProfessor-style platform for Vanderbilt course reviews. Placed 2nd in the Vanderbilt Immersion Computer Science Competition.
-
-**Technologies:** JavaScript, Node.js, Firebase
-
----
-
-### Acropolis Express — iOS Ordering App
-**URL:** https://apps.apple.com/us/app/acropolis-express/id6444456613
-**Code:** https://github.com/hfarley/Acropolis_Express_App
-**Role:** Co-developer (Principles of Software Engineering course, team of 4)
-**Status:** Published on App Store
-
-Mobile ordering app for a local food truck — customers view the menu, place orders, pay, and see hours/location. Employees manage orders and update operational data.
-
-**Technologies:** Swift, SwiftUI, Xcode, Firebase
-
----
-
-### 3D Printed Lego Phone Case
-**Report:** https://docs.google.com/document/d/10LtZN_5JZaKkU7zZ_h1ALImZMbZZ4rfSUXHyV67yvjk/edit
-**Role:** Solo project (Rapid Prototyping course)
-**Status:** Completed
-
-Custom iPhone 13 Pro case with Lego brick attachment, designed in Fusion 360 and printed on a Voron 300. Iterative design process resolved alignment issues across multiple print versions.
-
-**Technologies:** Fusion 360 CAD, SuperSlicer, Voron 300 3D Printer
-
----
-
 ## Research & Publications
 
 ### "Prompt Patterns for Structured Data Extraction from Unstructured Text" (2024)
-**Role:** Primary Author | **Citations:** 15
+**Role:** Primary Author | **Citations:** 17
 **Conference:** 31st Conference on Pattern Languages of Programs (PLoP)
 **PDF:** https://www.dre.vanderbilt.edu/~schmidt/PDF/Prompt_Patterns_for_Structured_Data_Extraction_from_Unstructured_Text.pdf
 **Authors:** M. Moundas, J. White, DC Schmidt
@@ -154,7 +119,7 @@ Explores pattern-based techniques for extracting structured data from unstructur
 ---
 
 ### "Evaluating the Performance of LLM-Generated Code for ChatGPT-4 and AutoGen Along with Top-Rated Human Solutions" (2024)
-**Role:** Co-author | **Citations:** 7
+**Role:** Co-author | **Citations:** 10
 **Conference:** ICSOFT 2024
 **PDF:** https://www.scitepress.org/Papers/2024/128206/128206.pdf
 **Authors:** A. Elnashar, M. Moundas, DC Schmidt, J. Spencer-Smith
@@ -164,7 +129,7 @@ Comprehensive analysis of ChatGPT-4 and AutoGen code generation capabilities ben
 ---
 
 ### "Prompt Engineering of ChatGPT to Improve Generated Code & Runtime Performance Compared with the Top-Voted Human Solutions" (2024)
-**Role:** Co-author | **Citations:** 1
+**Role:** Co-author | **Citations:** 2
 **Source:** dre.vanderbilt.edu
 **Authors:** A. Elnashar, M. Moundas, DC Schmidt, J. Spencer-Smith
 
@@ -194,8 +159,8 @@ Surveys guardrail and protection systems for AI, evaluating performance of indus
 **AI/ML Core:** Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Engineering, Memory Systems, Context Management, AI Agents, Agentic Systems, Multimodal AI, Autonomous Agents
 **AI Safety & Governance:** AI Ethics, AI Security, Guardrails, Monitoring Systems, Harnesses, Adversarial Prompting, Token Management, Tool Systems, MCP (Model Context Protocol)
 **Enterprise AI:** Enterprise AI Architecture, AI Platform Development, Open-Source AI Deployment, Higher Education AI
-**Programming:** JavaScript, Python, Swift, PowerShell, SQL, HTML/CSS
-**Frameworks/Tools:** Node.js, Firebase, SwiftUI, Xcode, Fusion 360
+**Programming:** JavaScript, TypeScript, Python, PowerShell, HTML/CSS
+**Frameworks/Tools:** Node.js
 **Other:** Active Directory, Microsoft 365 Administration, Technical Leadership, Research & Grant Writing, AI Training & Education
 
 ---
