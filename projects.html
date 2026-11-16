@@ -3,7 +3,7 @@
 
 <head>
     <title>Max Moundas - Projects</title>
-    <meta name="description" content="Projects by Max Moundas: Amplify (enterprise AI platform), Majk (agentic desktop app), RateMyClass, and Acropolis Express iOS app." />
+    <meta name="description" content="Projects by Max Moundas: Amplify (enterprise AI platform), Majk (agentic desktop app), Local LLM (self-hosted AI assistant), and PC Remote." />
     <link rel="icon" href="favicon.png" type="image/png">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta charset="utf-8" />
@@ -59,43 +59,48 @@
                 </ul>
             </article>
 
-            <!-- Earlier Projects -->
+            <!-- Personal Projects -->
             <section class="post">
                 <header class="major">
-                    <h2>Earlier Projects</h2>
-                    <p>Student projects from Vanderbilt University</p>
+                    <h2>Personal Projects</h2>
+                    <p>Open-source projects on my <a href="https://github.com/maxmoundas">GitHub</a></p>
                 </header>
             </section>
 
-            <!-- RateMyClass -->
+            <!-- Local LLM -->
             <article class="post featured">
                 <header class="major">
-                    <h2><a href="https://ratemyvandycourse.web.app/">RateMyClass</a></h2>
-                    <p>Senior CS Capstone &nbsp;|&nbsp; Team of 4 &nbsp;|&nbsp; 2nd Place, Vanderbilt Immersion CS Competition</p>
+                    <h2><a href="https://github.com/maxmoundas/local-llm">Local LLM - Private, Self-Hosted AI Assistant</a></h2>
+                    <p>Personal Project &nbsp;|&nbsp; Open Source</p>
                 </header>
-                <a href="https://ratemyvandycourse.web.app/" class="image main"><img
-                        src="images/RateMyClassScreenShot.png" alt="RateMyClass Screenshot" /></a>
-                <p>A RateMyProfessor-style course review platform for Vanderbilt University, built for my Senior Computer Science Capstone. Students can review courses, share feedback, and browse others' reviews to make informed enrollment decisions. Placed 2nd in the Vanderbilt Immersion Computer Science Competition.</p>
-                <p><strong>Stack:</strong> JavaScript, Node.js, Firebase</p>
+                <a href="https://github.com/maxmoundas/local-llm" class="image main"><img src="images/LocalLLMScreenshot.png"
+                        alt="Local LLM chat interface screenshot" /></a>
+                <p>A full-featured, self-hosted AI chat app built around a model that runs on your own GPU. Your chats, files, and memory stay on your machine, and when you want more power, the same interface can switch to Ollama, LM Studio, any OpenAI-compatible server, or cloud models from Anthropic and OpenAI - all from one model menu.</p>
+                <p>It's an agent, not just a chatbot: it plans, searches the web, reads pages, runs code in a Docker sandbox, and cites its sources, with each step shown live. It also supports MCP connectors with approval for risky actions, an OpenAI-compatible API, document and image attachments, projects, memory, scheduled prompts, local Whisper voice input, and live HTML/SVG/Mermaid previews. The built-in local model is Google's Gemma 4 E4B (about 5 GB of VRAM at 4-bit), running on CUDA GPUs or Apple Silicon.</p>
+                <p><strong>Stack:</strong> Python, FastAPI, React, Docker, Hugging Face, MCP</p>
                 <ul class="actions special">
-                    <li><a href="https://ratemyvandycourse.web.app/" class="button">Live Site</a></li>
-                    <li><a href="https://github.com/alypriolo/ratemyclass" class="button">View Code</a></li>
+                    <li><a href="https://github.com/maxmoundas/local-llm" class="button">View Code</a></li>
                 </ul>
             </article>
 
-            <!-- Acropolis Express -->
+            <!-- PC Remote -->
             <article class="post featured">
                 <header class="major">
-                    <h2><a href="https://apps.apple.com/us/app/acropolis-express/id6444456613">Acropolis Express - iOS App</a></h2>
-                    <p>Principles of Software Engineering &nbsp;|&nbsp; Team of 4 &nbsp;|&nbsp; Published on App Store</p>
+                    <h2><a href="https://github.com/maxmoundas/PCRemote">PC Remote - iPhone as a Wireless Trackpad &amp; Keyboard</a></h2>
+                    <p>Personal Project &nbsp;|&nbsp; Open Source</p>
                 </header>
-                <a href="https://apps.apple.com/us/app/acropolis-express/id6444456613" class="image main"><img
-                        src="images/AcropolisExpressScreenShot.png" alt="Acropolis Express App Screenshot" /></a>
-                <p>A full-featured iOS ordering app for a local food truck, built for my Principles of Software Engineering course. Customers can view the menu, place orders, pay, and check hours and location. Employees manage orders and update operational info - all in real time.</p>
-                <p><strong>Stack:</strong> Swift, SwiftUI, Xcode, Firebase</p>
+                <div class="box alt">
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-4"><span class="image fit"><img src="images/PCRemote-trackpad.png" alt="PC Remote trackpad tab" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/PCRemote-keyboard.png" alt="PC Remote keyboard tab" /></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/PCRemote-media.png" alt="PC Remote media tab" /></span></div>
+                    </div>
+                </div>
+                <p>Turns an iPhone into a low-latency wireless trackpad, keyboard, and media remote for a Windows PC - no phone app required. Run one script on the PC, scan the QR code, and Safari becomes a remote that works in any Windows app. Handy for controlling a PC hooked up to a TV from the couch.</p>
+                <p>Input is injected through the Win32 <code>SendInput</code> API, the same path a physical mouse and keyboard use, over a single persistent WebSocket that batches pointer movement once per animation frame. It supports multi-finger gestures, momentum scrolling, the full iOS keyboard (including autocorrect and dictation), and media controls, secured with PIN pairing and token authentication restricted to the local network. The whole thing is about 1,400 lines of code with two dependencies.</p>
+                <p><strong>Stack:</strong> Python, aiohttp, WebSockets, JavaScript, Win32 API</p>
                 <ul class="actions special">
-                    <li><a href="https://apps.apple.com/us/app/acropolis-express/id6444456613" class="button">App Store</a></li>
-                    <li><a href="https://github.com/hfarley/Acropolis_Express_App" class="button">View Code</a></li>
+                    <li><a href="https://github.com/maxmoundas/PCRemote" class="button">View Code</a></li>
                 </ul>
             </article>
 

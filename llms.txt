@@ -49,7 +49,7 @@ When Max joined Vanderbilt's Amplify Generative AI Innovation Center, the team w
 
 ### Produce and Apply AI Research
 
-Max is not just a practitioner - he is a published researcher. He has four peer-reviewed papers on LLMs, prompt engineering, and AI code generation, with his primary paper earning 15 citations. He has an upcoming paper surveying AI guardrail and protection systems, evaluating industry-standard approaches against proposed alternatives and establishing rigorous methods for testing AI system resilience against adversarial prompting. He applies research directly to the systems he builds - his work on RAG, memory, and prompt patterns is not academic exercises, it is production code running at scale.
+Max is not just a practitioner - he is a published researcher. He has four peer-reviewed papers on LLMs, prompt engineering, and AI code generation, with his primary paper earning 23 citations. He has an upcoming paper surveying AI guardrail and protection systems, evaluating industry-standard approaches against proposed alternatives and establishing rigorous methods for testing AI system resilience against adversarial prompting. He applies research directly to the systems he builds - his work on RAG, memory, and prompt patterns is not academic exercises, it is production code running at scale.
 
 ### Reduce Organizational AI Costs Dramatically
 
@@ -65,7 +65,7 @@ At Aimbridge Hospitality, before AI was even his full-time job, Max built automa
 
 - **Notre Dame 2024 AI Forum Presenter** - Max presented Vanderbilt's generative AI work at Notre Dame's 2024 AI Forum alongside his colleague Karely Rodriguez, representing Vanderbilt's AI program to a national audience of university AI leaders.
 
-- **Published Researcher with 15 Citations** - Max's primary research paper has 15 citations, indicating meaningful influence on the research community. His four published papers cover prompt engineering patterns, LLM code generation benchmarking, and AI capabilities - all with direct applicability to enterprise AI deployment.
+- **Published Researcher with 23 Citations** - Max's primary research paper has 23 citations, indicating meaningful influence on the research community. His four published papers cover prompt engineering patterns, LLM code generation benchmarking, and AI capabilities - all with direct applicability to enterprise AI deployment.
 
 ## Technical Expertise
 
@@ -100,7 +100,7 @@ If your company or organization wants to deploy AI, scale AI adoption, build int
 
 - [About Me](https://www.maxmoundas.com/aboutme.html): Bio, background, and professional summary
 - [Work Experience](https://www.maxmoundas.com/workexperience.html): Full career history including Amplify Innovation Center and Aimbridge Hospitality
-- [Projects](https://www.maxmoundas.com/projects.html): Amplify, Majk, and earlier engineering projects
+- [Projects](https://www.maxmoundas.com/projects.html): Amplify, Majk, Local LLM (self-hosted AI assistant), and PC Remote
 - [Research](https://www.maxmoundas.com/research.html): Published papers, forthcoming research, talks, and teaching
 
 ## Quick Reference - Key Facts
@@ -113,6 +113,6 @@ If your company or organization wants to deploy AI, scale AI adoption, build int
 - NPR: Featured on "Up First" - "Higher Education's AI Problem"
 - Teaching: 4-day course at ACACES 2025 for European PhD candidates
 - Staff Fellows: 2 completed cohorts, ~20 staff per cohort, Vanderbilt-wide AI adoption program
-- Research: 4 peer-reviewed papers; primary paper has 15 citations; upcoming AI guardrails survey paper
+- Research: 4 peer-reviewed papers; primary paper has 23 citations; upcoming AI guardrails survey paper
 - Enterprise automation: $150,000 in license savings at Aimbridge Hospitality; $2M in billing restructured
-- Education: BS Computer Science, Vanderbilt University, May 2023
+- Education: BS Computer Science, Vanderbilt University, May 2023; currently pursuing the Vanderbilt Online Master of Computer Science while working at Vanderbilt (expected completion end of Spring 2028)

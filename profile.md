@@ -31,6 +31,11 @@ Core expertise: prompt engineering, RAG, memory systems, context management, AI 
 - Degree: Bachelor of Science in Computer Science
 - Graduated: May 2023
 
+**Vanderbilt University** — Online
+- Degree: Master of Computer Science (Vanderbilt Online Masters in Computer Science)
+- Status: In progress, pursued while working full-time at Vanderbilt University
+- Expected completion: End of Spring 2028
+
 ---
 
 ## Work Experience
@@ -54,7 +59,7 @@ Majk is an agentic desktop application enabling university staff and researchers
 - More info: https://www.cr8.io/
 
 **Research & Publications:**
-Authored and co-authored multiple peer-reviewed research papers on LLMs, prompt engineering, and code generation. Primary research paper has 17 citations. Upcoming paper covers a survey of guardrail and protection systems for AI — evaluating industry-standard guardrails against proposed protection systems, analyzing data shortcomings, and proposing methods to test AI system resilience against adversarial prompting.
+Authored and co-authored multiple peer-reviewed research papers on LLMs, prompt engineering, and code generation. Primary research paper has 23 citations. Upcoming paper covers a survey of guardrail and protection systems for AI — evaluating industry-standard guardrails against proposed protection systems, analyzing data shortcomings, and proposing methods to test AI system resilience against adversarial prompting.
 
 **AI Training & Community:**
 - Leads Amplify trainings for the Vanderbilt community — live walkthroughs of the platform, feature demonstrations, Q&A, and real-world use case examples for thousands of students, staff, faculty, and administrators
@@ -106,10 +111,26 @@ Agentic desktop application coordinating specialized AI agents to complete real 
 
 ---
 
+### Local LLM — Private, Self-Hosted AI Assistant
+**URL:** https://github.com/maxmoundas/local-llm
+**Role:** Creator (personal, open source)
+
+Self-hosted AI chat app (React + FastAPI) built around a model that runs on your own GPU (Gemma 4 E4B), with optional Ollama, LM Studio, OpenAI-compatible, Anthropic, and OpenAI models. Agentic: plans, searches the web, runs code in a Docker sandbox, and cites sources. Supports MCP connectors, an OpenAI-compatible API, attachments, memory, scheduled prompts, and local Whisper voice input.
+
+---
+
+### PC Remote — iPhone as a Wireless Trackpad & Keyboard
+**URL:** https://github.com/maxmoundas/PCRemote
+**Role:** Creator (personal, open source)
+
+Turns an iPhone into a low-latency trackpad, keyboard, and media remote for a Windows PC with no phone app required. Python aiohttp WebSocket server injects input via the Win32 SendInput API; PIN pairing and token auth restricted to the local network. About 1,400 lines of code, two dependencies.
+
+---
+
 ## Research & Publications
 
 ### "Prompt Patterns for Structured Data Extraction from Unstructured Text" (2024)
-**Role:** Primary Author | **Citations:** 17
+**Role:** Primary Author | **Citations:** 23
 **Conference:** 31st Conference on Pattern Languages of Programs (PLoP)
 **PDF:** https://www.dre.vanderbilt.edu/~schmidt/PDF/Prompt_Patterns_for_Structured_Data_Extraction_from_Unstructured_Text.pdf
 **Authors:** M. Moundas, J. White, DC Schmidt
@@ -119,7 +140,7 @@ Explores pattern-based techniques for extracting structured data from unstructur
 ---
 
 ### "Evaluating the Performance of LLM-Generated Code for ChatGPT-4 and AutoGen Along with Top-Rated Human Solutions" (2024)
-**Role:** Co-author | **Citations:** 10
+**Role:** Co-author | **Citations:** 11
 **Conference:** ICSOFT 2024
 **PDF:** https://www.scitepress.org/Papers/2024/128206/128206.pdf
 **Authors:** A. Elnashar, M. Moundas, DC Schmidt, J. Spencer-Smith
